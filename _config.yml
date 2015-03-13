@@ -1,0 +1,66 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://8pod.github.io" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: "8pod"
+  avatar: avatar.png
+  gravatar: # email md5 hash
+  description: "A website with blog posts and pages" # used by search engines
+  
+  # Header and footer text
+  header_text: >
+     <p>Pragmatic observations of a typical ASP.NET web developer.</p>
+     
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+  
+  # Icons
+  rss: false
+  email_address: "cary@8pod.net"
+  behance:
+  bitbucket: 
+  dribbble: 
+  facebook: 
+  flickr: 
+  github: "8pod"
+  google_plus: 
+  instagram: 
+  linkedin:  "http://www.linkedin.com/in/caryprice"
+  pinterest: 
+  reddit: 
+  soundcloud: 
+  stack_exchange:  # full URL
+  steam: 
+  tumblr: 
+  twitter: "8pod"
+  wordpress: 
+  youtube: 
+  
+  # Scripts
+  google_analytics: "UA-60599636-1" # tracking id, e.g. "UA-000000-01"
+  disqus_shortname: "8pod"
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+  
+  # Colors, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PAGINATION
+paginate: 3
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
