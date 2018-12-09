@@ -15,7 +15,7 @@ theme:
      <p>Pragmatic observations of a typical ASP.NET web developer.</p>
      
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
   
   # Icons
   rss: false
